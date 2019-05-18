@@ -50,7 +50,7 @@ https://github.com/yuri-impression/1servoRobotwithSound
 1. Download and install Processing IDE and add two libraries: Firmata and Minim. 
 2. Download and install Arduino IDE. Open StandardFirmata from upper tab (File -> Examples -> Firmata -> StandardFirmata), and upload to Arduino. (We used the Arduino UNO clone. In Mac OS Sierra/High Sierra/Mojave, you have to install some libraries for recognizing CH341)
 3. Download and open SoundArduino.pde
-4. Modify the variable witin the line: ~~~Arduino = new Arduino(this, Arduino.list()[0], 57600);~~~
+4. Modify the variable witin the line: ```Arduino = new Arduino(this, Arduino.list()[0], 57600);```
 Let the variable in Arduino.list[%] change to make it fit with the serial port you are going to use.
 5. Plug any mic to your laptop and make sure the soundinput comes from the mic.
 6. Make the paper puppet following the video [Biting Skull Origami](https://www.youtube.com/watch?v=DQeTJtMIF5w).
@@ -64,7 +64,7 @@ If you are using SG90 servo:
 10. Connect Arduino to the serial port which was assigned in Arduino.list[%]
 11. Run SoundArduino.pde
 12. Talk to the mic and check the soundwave shown in the display.
-13. Check how the servo is working and if necessary modify the **4th** and **5th** variable of the map() witin the line: ~~~int newPos = int(map(in.right.get(i)*2, -5, 2, 60, 160));~~~
+13. Check how the servo is working and if necessary modify the **4th** and **5th** variable of the map() witin the line: ```int newPos = int(map(in.right.get(i)*2, -5, 2, 60, 160));```
 The range should be within 0-180.
 
 
