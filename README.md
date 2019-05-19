@@ -1,5 +1,7 @@
 # 1 servo Robot with Sound / Kids in Tech: Electronics and Robotics Open Day 2019
 
+by GreenLab Microfactory (https://greenlab-microfactory.org/)
+
 	11th May, 2019
 	14:00-16:00
 	@Akure TechHub, Botanical Garden, FUTA
